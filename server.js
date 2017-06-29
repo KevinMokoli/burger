@@ -31,4 +31,4 @@ app.listen(PORT, function() {
   console.log("Listening on port:%s", PORT);
 });
 
-// orm.selectALL("burgers")
+//orm.selectALL("burger")

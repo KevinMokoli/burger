@@ -33,7 +33,7 @@ router.put("/burger/update", function(req, res) {
     // wrapper for orm.js that using MySQL update callback will return a log to console,
     // render back to index with handle
     console.log(result);
-    res.redirect("/");
+    res.redirect("/burger");
   });
 });
 
